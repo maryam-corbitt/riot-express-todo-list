@@ -1,20 +1,26 @@
 {
-	"name": "riot-express-todo-list",
-	"version": "1.0.0",
-	"description": "",
-	"main": "app.js",
-	"scripts": {
-		"test": "exit 0",
-		"start": "node app.js",
-		"lint": "eslint **/*.js"
-	},
-	"author": "Pedro Narciso García Revington <p.revington@gmail.com>",
-	"license": "MIT",
-	"dependencies": {
-		"body-parser": "^1.15.2",
-		"express": "^4.14.0",
-		"jade": "^1.11.0",
-		"node-cmd": "^3.0.0",
-		"node-ssh": "^5.1.2"
-	}
+  "name": "riot-express-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "node app.js",
+    "lint": "eslint **/*.js"
+  },
+  "author": "Pedro Narciso García Revington <p.revington@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "node-cmd": "^3.0.0",
+    "node-ssh": "^5.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.10.0"
+  }
 }
