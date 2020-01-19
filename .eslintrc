@@ -1,24 +1,21 @@
 {
-    "ecmaFeatures": {
-        "templateStrings": true,
-        "blockBindings": true
-    },
-    "rules": {
-        "indent": [2, 4],
-        "quotes": [2, "single", "avoid-escape"],
-        "linebreak-style": [2, "unix"],
-        "semi": [2, "always"],
-        "no-console": 0,
-        "no-fallthrough": 0,
-        "vars-on-top": 2,
-        "callback-return": [2, ["callback", "cb", "next"]],
-        "no-new-require": 2,
-        "no-unused-vars": 2
-    },
-    "env": {
-        "node": true,
-        "mocha": true,
-        "es6": true
-    },
-    "extends": "eslint:recommended"
+	"extends": "airbnb-base",
+	"env": {
+		"node": true,
+		"mocha": true,
+		"es6": true
+	},
+	"plugins": ["chai-friendly"],
+	"rules": {
+		"comma-dangle": 0,
+		"consistent-return": 0,
+		"function-paren-newline": ["error", "never"],
+		"no-param-reassign": 0,
+		"no-underscore-dangle": 0,
+		"no-shadow": 0,
+		"no-console": 0,
+		"no-plusplus": 0,
+		"no-unused-expressions": 0,
+		"chai-friendly/no-unused-expressions": 2
+	}
 }
